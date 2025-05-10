@@ -1,11 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome to My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Proyectos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .project-card {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project-card img {
+            max-width: 300px;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .project-info {
+            flex: 1;
+        }
+        .project-info h3 {
+            color: #333;
+        }
+        .project-info p {
+            color: #555;
+            margin: 10px 0;
+        }
+        .technologies {
+            font-weight: bold;
+            color: #333;
+        }
+        .links a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .project-card {
+                flex-direction: column;
+                align-items: center;
+            }
+            .project-card img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Hello! I'm Jessica</h1>
-  <p>This is my portfolio hosted with GitHub Pages.</p>
+
+    <div class="container">
+        <h1>Mi Portafolio de Proyectos</h1>
+
+        <!-- Proyecto 1: Armando Regil -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="Armando Regil">
+            <div class="project-info">
+                <h3>Armando Regil</h3>
+                <p><strong>Descripción:</strong> Participé en el desarrollo del sitio web oficial de Armando Regil, conferencista, autor y emprendedor social. Mi contribución fue en el diseño estructural y en la integración de banners animados mediante Slider Revolution dentro de WordPress con WPBakery Page Builder.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> WordPress, WPBakery Page Builder, Slider Revolution, Diseño responsive.</p>
+                <div class="links">
+                    <a href="https://armando-regil.com/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 2: En Concreto -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="En Concreto">
+            <div class="project-info">
+                <h3>En Concreto</h3>
+                <p><strong>Descripción:</strong> Sitio web desarrollado en WordPress para una empresa mexicana dedicada a la fabricación de piezas utilitarias de concreto. Personalicé la plantilla para reflejar la estética industrial de la marca y asegurar un diseño responsive.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> WordPress, Elementor, HTML, CSS, Diseño responsive.</p>
+                <div class="links">
+                    <a href="https://en-concreto.mx/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 3: ¿QH? -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="¿QH?">
+            <div class="project-info">
+                <h3>¿QH?</h3>
+                <p><strong>Descripción:</strong> Diseño y desarrollo de la landing page para la aplicación "¿Qué Hacemos?", que centraliza información sobre eventos y lugares de recreación. El diseño resalta la propuesta de valor de la app.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> WordPress, Elementor, HTML, CSS, Diseño responsive.</p>
+                <div class="links">
+                    <a href="https://que-hacemos.com/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 4: IBU - I Bet You -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="IBU - I Bet You">
+            <div class="project-info">
+                <h3>IBU - I Bet You</h3>
+                <p><strong>Descripción:</strong> Diseño y desarrollo de la landing page de IBU - I Bet You, una aplicación para llevar el control de apuestas entre amigos. La página está diseñada para resaltar los beneficios de la app de manera atractiva y dinámica.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> HTML5, CSS3, JavaScript, Diseño responsive.</p>
+                <div class="links">
+                    <a href="https://ibu-app.com/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 5: Alacena.mx -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="Alacena.mx">
+            <div class="project-info">
+                <h3>Alacena.mx</h3>
+                <p><strong>Descripción:</strong> Desarrollo de la landing page para una plataforma de venta de productos locales y sustentables. El diseño enfatiza la confianza y el compromiso con el consumo responsable.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> HTML5, CSS3, JavaScript, Diseño responsive, Optimización SEO básica.</p>
+                <div class="links">
+                    <a href="https://alacena.mx/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 6: Hacienda Cinco La Victoria -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="Hacienda Cinco La Victoria">
+            <div class="project-info">
+                <h3>Hacienda Cinco La Victoria</h3>
+                <p><strong>Descripción:</strong> Diseño y desarrollo de un sitio web para un espacio de eventos campestres. El sitio resalta la belleza natural del lugar y la información clave sobre servicios y contacto.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> WordPress, WPBakery Page Builder, Slider Revolution, Diseño responsive.</p>
+                <div class="links">
+                    <a href="https://haciendacincolavictoria.com/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 7: Curtido - Workshop -->
+        <div class="project-card">
+            <img src="url-a-la-imagen-del-proyecto" alt="Curtido - Workshop">
+            <div class="project-info">
+                <h3>Curtido - Workshop</h3>
+                <p><strong>Descripción:</strong> Diseño y desarrollo de la landing page de Curtido – Workshop, un taller artístico enfocado en la creatividad. El diseño fue pensado para ser minimalista y elegante, resaltando el contenido visual.</p>
+                <p class="technologies"><strong>Tecnologías usadas:</strong> WordPress, Elementor, HTML, CSS, Diseño responsive.</p>
+                <div class="links">
+                    <a href="https://curtido.mx/" target="_blank">Visitar el sitio</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
